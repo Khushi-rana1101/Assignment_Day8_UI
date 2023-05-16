@@ -1,0 +1,30 @@
+.button{
+    background-color: brown;
+    color: antiquewhite;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-family:cursive;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: antiquewhite;
+    color: brown;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-family:cursive;
+    text-decoration: none;
+}
+
+.button:active{
+    background-color:brown;
+    color: antiquewhite;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-family:cursive;
+    text-decoration: none;
+    border: 3px antiquewhite double;
+   
+}

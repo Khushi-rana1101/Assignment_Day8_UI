@@ -1,0 +1,21 @@
+<p>department-list works!</p>
+
+<h2>List Of Departments</h2>
+<div>
+   
+        <table>
+            <thead>
+                <tr>
+                    <th>Portfolio</th>
+                    <th>Offering Portfolio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let d of dept">
+                    <td>{{ d.op }}</td>
+                    <td>{{ d.tg }}</td>
+                </tr>
+            </tbody>
+        </table>
+   
+  </div>

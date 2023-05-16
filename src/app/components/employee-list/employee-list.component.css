@@ -1,0 +1,20 @@
+table{
+   
+    background-color: #345468;
+    color: antiquewhite;
+    height: 270px;
+    width: 300px;
+   
+
+}
+
+td, th{
+    border: 3px antiquewhite dashed ;
+    padding: 20px;
+}
+
+td:hover,th:hover{
+    background-color: antiquewhite;
+    color: brown;
+    border: brown;
+}

@@ -1,0 +1,23 @@
+<p>employee-list works!</p>
+
+<h2>List Of employee-list</h2>
+<div>
+   
+        <table>
+            <thead>
+                <tr>
+                    <th>Employee Name</th>
+                    <th>Employee Number</th>
+                    <th>Portfolio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let e of emp">
+                    <td>{{ e.ename }}</td>
+                    <td>{{ e.enumber }}</td>
+                    <td>{{e.eportfolio}}</td>
+                </tr>
+            </tbody>
+        </table>
+   
+  </div>

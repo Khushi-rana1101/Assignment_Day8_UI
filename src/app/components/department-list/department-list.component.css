@@ -1,0 +1,20 @@
+table{
+   
+    background-color: black;
+    color: aliceblue;
+    height: 270px;
+    width: 200px;
+   
+
+}
+
+td, th{
+    border: 3px white dashed ;
+    padding: 20px;
+}
+
+th:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
